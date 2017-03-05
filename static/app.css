@@ -1,0 +1,81 @@
+/* line 1, ../assets/sass/app.sass */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* line 5, ../assets/sass/app.sass */
+.container {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #333;
+}
+
+/* line 10, ../assets/sass/app.sass */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 15, ../assets/sass/app.sass */
+.col-6 {
+  width: 16.66%;
+  float: left;
+}
+
+/* line 19, ../assets/sass/app.sass */
+.horoscope {
+  text-align: center;
+}
+/* line 21, ../assets/sass/app.sass */
+.horoscope__head {
+  font-size: 32px;
+  padding: 40px 0;
+}
+/* line 24, ../assets/sass/app.sass */
+.horoscope__grid {
+  padding-bottom: 40px;
+}
+/* line 26, ../assets/sass/app.sass */
+.horoscope__name {
+  font-size: 24px;
+}
+/* line 28, ../assets/sass/app.sass */
+.horoscope__img {
+  width: 120px;
+  height: 120px;
+  padding-top: 10px;
+}
+
+/* line 34, ../assets/sass/app.sass */
+.zodiac {
+  text-align: center;
+}
+/* line 36, ../assets/sass/app.sass */
+.zodiac__head {
+  font-size: 32px;
+  padding: 40px 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 580px) {
+  /* line 43, ../assets/sass/app.sass */
+  .col-6 {
+    width: 50%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1124px) {
+  /* line 48, ../assets/sass/app.sass */
+  .col-6 {
+    width: 25%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 580px) and (max-width: 767px) {
+  /* line 53, ../assets/sass/app.sass */
+  .col-6 {
+    width: 33.33%;
+    float: left;
+  }
+}
