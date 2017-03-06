@@ -51,31 +51,53 @@ a {
 /* line 34, ../assets/sass/app.sass */
 .zodiac {
   text-align: center;
+  padding: 0 300px;
 }
-/* line 36, ../assets/sass/app.sass */
+/* line 37, ../assets/sass/app.sass */
 .zodiac__head {
   font-size: 32px;
   padding: 40px 0;
 }
+/* line 41, ../assets/sass/app.sass */
+.zodiac__img {
+  width: 150px;
+  height: 150px;
+  padding-top: 30px;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 580px) {
-  /* line 43, ../assets/sass/app.sass */
+  /* line 48, ../assets/sass/app.sass */
   .col-6 {
     width: 50%;
     float: left;
   }
+
+  /* line 51, ../assets/sass/app.sass */
+  .zodiac {
+    padding: 0 20px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1124px) {
-  /* line 48, ../assets/sass/app.sass */
+  /* line 55, ../assets/sass/app.sass */
   .col-6 {
     width: 25%;
     float: left;
   }
+
+  /* line 58, ../assets/sass/app.sass */
+  .zodiac {
+    padding: 0 100px;
+  }
 }
 @media only screen and (min-width: 580px) and (max-width: 767px) {
-  /* line 53, ../assets/sass/app.sass */
+  /* line 62, ../assets/sass/app.sass */
   .col-6 {
     width: 33.33%;
     float: left;
+  }
+
+  /* line 65, ../assets/sass/app.sass */
+  .zodiac {
+    padding: 0 50px;
   }
 }

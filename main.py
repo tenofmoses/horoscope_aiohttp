@@ -23,7 +23,7 @@ async def index(request):
 async def zodiac(request):
     name = request.match_info.get('name')
     if name not in zodiacs:
-        raise web.HTTPNotFound(text='Такого знака зодака не существует!')
+        raise web.HTTPNotFound(text='Такого знака зодиака не существует!')
 
     redis = await aioredis.create_redis(('localhost', 6379))
     zodiac = await redis.get('horo:%s' % name)
